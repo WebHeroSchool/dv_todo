@@ -1,8 +1,15 @@
 import React from 'react';
 
-const element = (<div>
-  Hello world!
-  <p>Be happy^.^</p>
-</div>);
+const ItemList = () => (<ul>
+	<li>Урок английского</li>
+	<li>Тренировка</li>
+	<li>ДЗ</li>
+	<li>Прогулка</li>
+	</ul>);
 
-export { element };
+const App = () => (<div>
+	<h1>Список дел:</h1>
+	<ItemList />
+</div>);
+	
+export default App;
