@@ -30,7 +30,7 @@ function App() {
 					{tuesday ? `Yeeeees!` : `No!`}
 					{undefined}
 					{null}
-				{true}
+				  {true}
 					{false}
 				</p>
 				<p>{count * length}
