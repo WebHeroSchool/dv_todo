@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { count, length } from './number.js';
 
 const day = '23.08.2020';
 const today = `Today is ${day}`;
@@ -18,7 +19,7 @@ function App() {
 					color: 'pink',
 					fontSize: 35
 				}}>
-					Hey todo mundo!
+					Hey tudo mundo!
 				</p>
 				<p>
 					{today}
@@ -31,6 +32,8 @@ function App() {
 					{null}
 					{true}
 					{false}
+				</p>
+				<p>{count * length}
 				</p>
 				<a
 					className="App-link"
