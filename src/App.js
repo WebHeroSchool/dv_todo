@@ -1,12 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import { count, length } from './number.js';
 
-const day = '23.08.2020';
-const today = `Today is ${day}`;
-const tuesday = true;
+const ItemList = () => (<ul>
+	<li>Урок английского</li>
+	<li>Тренировка</li>
+	<li>ДЗ</li>
+	<li>Прогулка</li>
+	</ul>);
 
+reactcomponent
+const App = () => (<div>
+	<h1>Список дел:</h1>
+	<ItemList />
+</div>);
+	
+export default App;
+                   
 function App() {
 	return (
 		<div className="App">
