@@ -1,14 +1,10 @@
 import React from 'react';
 import Item from '../Item/Item';
 
-const ItemList = () => {
-	return (
-		<ul>
-			<Item />
-			<Item />
-			<Item />
-		</ul>
-	);
-};
+const ItemList = () => (<ul>
+	<li>Тренировка</li>
+	<li><Item /></li>
+	<li>Игры</li>
+</ul>);
 
-export default ItemList;
+export default ItemList
