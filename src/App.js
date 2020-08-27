@@ -5,16 +5,16 @@ const ItemList = () => (<ul>
 	<li>Тренировка</li>
 	<li>ДЗ</li>
 	<li>Прогулка</li>
-	</ul>);
+</ul>);
 
 reactcomponent
 const App = () => (<div>
 	<h1>Список дел:</h1>
 	<ItemList />
 </div>);
-	
+
 export default App;
-                   
+
 function App() {
 	return (
 		<div className="App">
@@ -38,7 +38,7 @@ function App() {
 					{tuesday ? `Yeeeees!` : `No!`}
 					{undefined}
 					{null}
-				  {true}
+					{true}
 					{false}
 				</p>
 				<p>{count * length}
